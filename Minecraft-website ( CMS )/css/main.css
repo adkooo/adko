@@ -7,6 +7,7 @@
   --mainBlack:#292F36;
   --mainGrey:rgb(216, 214, 214);
   --mainYellow:#e3b505;
+  --mainnav:rgb(79, 205, 140);;
 }
 
 
@@ -16,3 +17,65 @@ body{
   background: var(--mainWhite);
 }
 /* REM values to target root element 1REM = 16px */
+
+#icon{
+  font-size: 22px;
+}
+
+.header{
+  clip-path: polygon(0 0 , 100% 0 ,100% 95%  , 50% 100% , 0 95%);
+  color: var(--mainWhite);
+  overflow: hidden;
+}
+.height-max{
+  min-height: calc(100vh - 76px);
+  background: url('https://www.minecraft.net/content/dam/games/minecraft/key-art/PC_Bundle_Deluxe_Tablet.jpg?imwidth=769');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  animation-name: zoom;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes zoom {
+  0%{
+    transform: scale(1)
+  }
+
+  50%{
+    transform: scale(1.2) translateX(-5%) ; 
+  }
+
+  100%{
+     transform: scale(1);
+  }
+}
+
+
+.title-heading{
+  background: rgb(0,0,0,0.4, green, blue);
+  border-left: 0.3rem solid #28a745;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/*
+@media screen and (min-width:768px) {
+
+}
+*/
+
+.title-icon{
+  text-decoration: none !important;
+}
+.title-icon:hover{
+  color: #1c7f33 ;
+  opacity: 0.6;
+}
