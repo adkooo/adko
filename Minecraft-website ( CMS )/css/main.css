@@ -79,3 +79,29 @@ body{
   color: #1c7f33 ;
   opacity: 0.6;
 }
+
+.section-titel{
+  background:#28a745;
+  color:var(--mainWhite);
+  padding: 0.5rm 2rem;
+  /*clip-path: polygon(10% 0 , 100% 0, 90% 100% , 0 100%)*/
+}
+
+/*
+.css-a:hover{
+
+
+}*/
+
+.css-b{
+  width: 10rem;
+  height:10rem;
+  
+}
+
+.div-icon{
+  width: 4rem;
+  height: 0.3rem;
+  background: #28a745;
+  margin: 1rem auto;
+}
