@@ -1,3 +1,3 @@
 ##Liest
 
-[android.permission.INTERNET](Format-android/code1.xml)
+[android.permission.INTERNET](https://github.com/adkooo/adko/blob/main/Format-android/docs1.xml)
