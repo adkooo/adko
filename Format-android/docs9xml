@@ -1,0 +1,89 @@
+<!--android:orientation="horizontal"-->
+
+
+<!--
+این کد یک رابط کاربری برای یک اپلیکیشن اندروید تعریف می‌کند که در آن پنج دکمه (Button) درون یک LinearLayout به صورت عمودی (یعنی زیر هم) قرار گرفته‌اند. در ادامه، هر بخش از این کد توضیح داده شده است:
+
+توضیح اجزای کد:
+LinearLayout:
+
+LinearLayout یک نوع چیدمان است که ویوهای داخلی آن به صورت یک خط افقی یا عمودی چیده می‌شوند. در این کد، android:orientation="vertical" به این معناست که ویوها (در اینجا دکمه‌ها) به صورت عمودی زیر هم قرار می‌گیرند.
+android:layout_width="match_parent" و android:layout_height="match_parent" تعیین می‌کند که LinearLayout تمام عرض و ارتفاع صفحه یا والد خود را بگیرد.
+android:weightSum="4" مجموع وزن (weight) را برای فرزندان این LinearLayout تعیین می‌کند.
+Button A:
+
+اولین دکمه با متن "A" درون LinearLayout قرار دارد.
+عرض این دکمه به اندازه عرض LinearLayout تنظیم شده است (match_parent).
+ارتفاع آن به اندازه محتوای داخلی تنظیم شده (wrap_content).
+android:layout_weight="1" به این دکمه اجازه می‌دهد تا با بقیه فضا به نسبت وزنی که در weightSum تعریف شده است، متناسب شود.
+android:layout_margin="4dp" حاشیه‌ای معادل 4dp در اطراف دکمه ایجاد می‌کند.
+Button B:
+
+دومین دکمه با متن "B" درون LinearLayout قرار دارد.
+عرض آن به اندازه عرض LinearLayout تنظیم شده است (match_parent).
+ارتفاع آن به اندازه محتوای داخلی تنظیم شده (wrap_content).
+این دکمه هیچ وزن خاصی ندارد، بنابراین فقط به اندازه محتوای خود نمایش داده می‌شود.
+Button C:
+
+سومین دکمه با متن "C" درون LinearLayout قرار دارد.
+مانند دکمه "B"، عرض آن به اندازه LinearLayout است (match_parent)، و ارتفاع آن به اندازه محتوای داخلی (wrap_content).
+Button D:
+
+چهارمین دکمه با متن "D" است.
+عرض و ارتفاع آن به اندازه محتوای داخلی تنظیم شده است (wrap_content)، بنابراین فقط به اندازه متن "D" نمایش داده می‌شود.
+Button E:
+
+پنجمین دکمه با متن "E" است.
+مشابه با دکمه "D"، عرض و ارتفاع آن نیز به اندازه محتوای داخلی تنظیم شده است (wrap_content).
+عملکرد کلی کد:
+چیدمان دکمه‌ها: این کد پنج دکمه را در یک خط عمودی در صفحه قرار می‌دهد.
+
+دکمه "A" با توجه به وزن (layout_weight) تعیین شده، به همراه weightSum کل فضای عمودی در دسترس را به نسبت وزنی که دارد پر می‌کند.
+بقیه دکمه‌ها به اندازه محتوای داخلی خود فضای عمودی را اشغال می‌کنند.
+ظاهر دکمه‌ها: دکمه "A" به خاطر وزن خود (layout_weight) فضای بیشتری از صفحه را اشغال خواهد کرد، در حالی که بقیه دکمه‌ها (B, C, D, E) فضای کوچکتری می‌گیرند.
+
+این کد برای ساخت یک صفحه ساده با چند دکمه در یک اپلیکیشن اندروید استفاده می‌شود. دکمه‌ها به صورت عمودی زیر هم قرار گرفته‌اند و یکی از آن‌ها (دکمه "A") به نسبت بیشتری از فضای موجود را می‌گیرد.
+-->
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        />
+</LinearLayout>
