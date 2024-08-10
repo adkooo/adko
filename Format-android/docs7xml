@@ -1,0 +1,36 @@
+<!--
+
+این کد یک فایل XML است که برای تعریف یک رابط کاربری (User Interface) در سیستم عامل اندروید استفاده می‌شود. در اینجا، این کد یک چیدمان ساده را برای یک Activity یا Fragment در یک اپلیکیشن اندروید تعریف می‌کند.
+
+اجزای کد:
+FrameLayout:
+
+FrameLayout یک نوع چیدمان (Layout) در اندروید است که به شما اجازه می‌دهد تا یک یا چند ویو (View) را در یک فریم یا قاب نمایش دهید. ویوها در این نوع چیدمان معمولاً روی هم قرار می‌گیرند.
+android:layout_width="match_parent" به این معناست که عرض FrameLayout به اندازه‌ی عرض صفحه نمایش یا والد آن خواهد بود.
+android:layout_height="match_parent" به این معناست که ارتفاع FrameLayout به اندازه‌ی ارتفاع صفحه نمایش یا والد آن خواهد بود.
+Button:
+
+این یک دکمه ساده است که داخل FrameLayout قرار گرفته است.
+android:layout_width="wrap_content" به این معناست که عرض دکمه به اندازه‌ی محتوای داخلی آن تنظیم می‌شود.
+android:layout_height="wrap_content" به این معناست که ارتفاع دکمه به اندازه‌ی محتوای داخلی آن تنظیم می‌شود.
+android:text="Click Me" متنی را که روی دکمه نمایش داده می‌شود، تعیین می‌کند.
+android:layout_gravity="center" دکمه را در مرکز FrameLayout قرار می‌دهد.
+عملکرد کد:
+این کد یک دکمه را در مرکز یک FrameLayout قرار می‌دهد. زمانی که این فایل XML در یک اپلیکیشن اندروید استفاده شود، یک صفحه با یک دکمه در مرکز نمایش داده خواهد شد که متن "Click Me" روی آن قرار دارد.
+
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
