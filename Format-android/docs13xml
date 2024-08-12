@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // برای دسترسی به ریدیوباتن
+        // برای دسترسی به رادیو باتن
         
         RadioGroup c = findViewById(R.id.idra);
         c.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
