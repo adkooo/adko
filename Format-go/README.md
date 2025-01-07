@@ -20,8 +20,11 @@
 <br>
 [کد روش‌های مختلف تعریف و مقداردهی متغیرها در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs6.go)
 <br>
-[]()
 <br>
-[]()
+[کد تعریف و استفاده از ثابت‌ها در Go را نشان می‌دهد و نیاز به اصلاح دارد تا برای قالب‌بندی صحیح از fmt.Printf استفاده شود](https://github.com/adkooo/adko/blob/main/Format-go/docs7.go)
 <br>
-[]()
+<br>
+[مفاهیم مربوط به محدوده دید (scope) متغیرها و استفاده از توابع چاپ مختلف در Go](https://github.com/adkooo/adko/blob/main/Format-go/docs8.go)
+<br>
+<br>
+[عملکردهای مختلف بسته strings در Go را برای عملیات روی رشته‌ها](https://github.com/adkooo/adko/blob/main/Format-go/docs9.go)
