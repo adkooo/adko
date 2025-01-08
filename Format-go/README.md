@@ -28,3 +28,15 @@
 <br>
 <br>
 [عملکردهای مختلف بسته strings در Go را برای عملیات روی رشته‌ها](https://github.com/adkooo/adko/blob/main/Format-go/docs9.go)
+<br>
+<br>
+[کد عددی را از کاربر دریافت می‌کند و با استفاده از شرط‌ها بازه](https://github.com/adkooo/adko/blob/main/Format-go/docs10.go)
+<br>
+<br>
+[دستور switch](https://github.com/adkooo/adko/blob/main/Format-go/docs11.go)
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
