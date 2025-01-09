@@ -36,7 +36,10 @@
 [دستور switch](https://github.com/adkooo/adko/blob/main/Format-go/docs11.go)
 <br>
 <br>
-[]()
+[با استفاده از ساختار switch بررسی می‌کند و بر اساس تطابق مقدار، بخش مربوطه را اجرا می‌کند.](https://github.com/adkooo/adko/blob/main/Format-go/docs12.go)
+<br>
+<br>
+[حلقه for](https://github.com/adkooo/adko/blob/main/Format-go/docs13.go)
 <br>
 <br>
 []()
