@@ -42,4 +42,16 @@
 [حلقه for](https://github.com/adkooo/adko/blob/main/Format-go/docs13.go)
 <br>
 <br>
+[این کد یک حلقه for برای اعداد 0 تا 100 تعریف می‌کند و در هر تکرار این عملیات‌ها انجام می‌شود](https://github.com/adkooo/adko/blob/main/Format-go/docs14.go)
+<br>
+<br>
+[عملیات مربوط به آرایه‌ها در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs15.go)
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
 []()
