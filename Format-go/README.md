@@ -48,7 +48,7 @@
 [عملیات مربوط به آرایه‌ها در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs15.go)
 <br>
 <br>
-[]()
+[ نحوه کار با Slice‌ها در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs16.go)
 <br>
 <br>
 []()
