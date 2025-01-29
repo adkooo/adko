@@ -51,6 +51,51 @@
 [ نحوه کار با Slice‌ها در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs16.go)
 <br>
 <br>
+[این برنامه از یک حلقه for](https://github.com/adkooo/adko/blob/main/Format-go/docs17.go)
+<br>
+<br>
+[این برنامه چندین عملیات مختلف بر روی نقشه‌ها (Maps) در زبان Go](https://github.com/adkooo/adko/blob/main/Format-go/docs18.go)
+<br>
+<br>
+[تعریف توابع](https://github.com/adkooo/adko/blob/main/Format-go/docs19.go)
+<br>
+<br>
+[ تابع با پارامتر فراخوانی](https://github.com/adkooo/adko/blob/main/Format-go/docs20.go)
+<br>
+<br>
+[تابع بی‌نام (anonymous function)](https://github.com/adkooo/adko/blob/main/Format-go/docs21.go)
+<br>
+<br>
+[defer در انتهای اجرای تابع به ترتیب معکوس](https://github.com/adkooo/adko/blob/main/Format-go/docs22.go)
+<br>
+<br>
+[نوع داده ساختار (struct)](https://github.com/adkooo/adko/blob/main/Format-go/docs23.go)
+<br>
+<br>
+[ زبان Go شامل یک ساختار (struct) به نام a است که دو فیلد](https://github.com/adkooo/adko/blob/main/Format-go/docs24.go)
+<br>
+<br>
+[ ساختار (struct) به نام Person چهار فیلد](https://github.com/adkooo/adko/blob/main/Format-go/docs25.go)
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
+[]()
+<br>
+<br>
 []()
 <br>
 <br>
